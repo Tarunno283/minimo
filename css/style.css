@@ -1,0 +1,270 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+p,
+li {
+    font-family: 'Playfair Display', serif;
+
+}
+
+h5,
+h6 {
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+
+    overflow: hidden;
+    width: 90%;
+    margin: 30px 5%;
+}
+
+.logo {
+
+    width: 20%;
+    float: left;
+}
+
+.logo img {}
+
+.menu {
+
+    float: right;
+    width: 50%;
+}
+
+.menu ul {
+
+    list-style: none;
+    float: right;
+}
+
+.menu ul li {
+
+    float: left;
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+    margin-left: 50px;
+    color: #626262;
+    text-transform: uppercase;
+}
+
+.banner {
+
+    width: 90%;
+    margin: 0px 5%;
+}
+
+.banner img {
+
+    width: 100%;
+}
+
+.photodiary {
+    width: 70%;
+    margin: 50px 10%;
+}
+
+.photodiary h5 {
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.photodiary h1 {
+    color: #626262;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.photodiary p {
+    font-size: 24px;
+    color: #626262;
+    margin-bottom: 30px;
+}
+
+.photodiary h6 {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 16px;
+}
+
+.lifestyle {
+    margin: 70px 10%;
+    overflow: hidden;
+    width: 80%;
+}
+
+.left {
+    float: left;
+    width: 45%;
+}
+
+.left h5 {
+    text-transform: uppercase;
+    margin: 30px 0;
+    color: #b4ad9e;
+}
+
+.left h1 {
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 40px;
+}
+
+.left p {
+    font-size: 16px;
+    color: #626262;
+    margin-bottom: 100px;
+}
+
+.left img {
+    width: 100%;
+}
+
+.right {
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.right img {
+    width: 100%;
+}
+
+.right h5 {
+    text-transform: uppercase;
+    margin: 30px 0;
+    color: #b4ad9e;
+}
+
+.right h1 {
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 40px;
+}
+
+.right p {
+    font-size: 16px;
+    color: #626262;
+    margin-bottom: 100px;
+}
+
+.sign {
+
+    width: 100%;
+    background: #f0f0f0;
+    padding: 80px 0;
+    margin-bottom: 100px;
+}
+
+.sign-up {
+    /* padding: 50px 15px; */
+    margin: auto;
+    width: 26%;
+position: relative;}
+
+.sign-up h1 {
+    font-weight: 400;
+    color: #333333;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.sign-up input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333333;
+    background: transparent;
+    padding: 10px 0;
+}
+.send{position: absolute;right: 0;bottom: 3px;}
+
+.sign-up input::placeholder {
+    color: #626262;
+}
+
+.sign-up input:focus {
+    outline: none;
+}
+
+.button {
+    margin: 150px 0;
+    text-align: center;
+}
+
+.button button {
+    padding: 20px 30px;
+    background: transparent;
+    border: 1px solid #626262;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer {
+    /* margin: auto; */
+    background: #f0f0f0;
+    padding: 30px 0;
+    /* width: 80%; */
+}
+
+.footer_content {
+    width: 80%;
+    margin: auto;
+}
+
+.term {
+    width: 30%;
+    float: left;
+}
+
+.term ul {
+    list-style: none;
+}
+
+.term ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+.term ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #000000;
+}
+
+.icon {
+    width: 30%;
+    float: right;
+}
+
+.icon ul {
+    list-style: none;
+    float: right;
+}
+
+.icon ul li {
+    color: #626262;
+    float: left;
+    margin-left: 17px;
+}
+
+.icon ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #626262;
+}
